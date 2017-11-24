@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trvl Autofill checkout
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  try to take over the world!
 // @author       Ricardo Cino
 // @match        *.trvl-reboot.dev/book?page=checkout*
