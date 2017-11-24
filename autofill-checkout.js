@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trvl Autofill checkout
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  try to take over the world!
 // @author       Ricardo Cino
 // @match        *.trvl-reboot.dev/book?page=checkout*
@@ -25,7 +25,7 @@
         $('#lastname').val('Batman');
         $('#email').val(''); // Set email here
         $('#phonenumber').val('612345678');
-        $('#comments').val('Default request.');
+        $('#comments').val('Default request');
 
         $('#creditCardFirstname').val('John');
         $('#creditCardLastname').val('Batman');
