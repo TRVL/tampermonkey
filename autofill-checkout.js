@@ -25,6 +25,7 @@
         $('#lastname').val('Batman');
         $('#email').val(window.Laravel.user.email || '');
         $('#phonenumber').val('612345678');
+        $('#phoneNumber').val('612345678');
         $('#comments').val('Default request');
 
         $('#creditCardFirstname').val('John');
