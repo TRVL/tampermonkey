@@ -10,6 +10,8 @@
 // @match        *.demo.trvl.yt/book?page=checkout*
 // @match        *.trvl.com/book?page=checkout*
 // @require      http://code.jquery.com/jquery-3.2.1.min.js
+// @updateURL    https://raw.githubusercontent.com/Trvl/tampermonkey/master/autofill-checkout.js
+// @downloadURL  https://raw.githubusercontent.com/Trvl/tampermonkey/master/autofill-checkout.js
 // @grant        none
 // ==/UserScript==
 
