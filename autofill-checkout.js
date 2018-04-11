@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Trvl Autofill checkout
 // @namespace    http://tampermonkey.net/
-// @version      0.1.6
+// @version      0.1.7
 // @description  try to take over the world!
 // @author       Ricardo Cino
 // @match        *.trvl.test/book?page=checkout*
@@ -20,7 +20,7 @@
 (function() {
     'use strict';
 
-    $('.checkout-button').before('<button type="button" id="fillform_tampermonkey" class="button checkout-button" style="background-color: #fff; border-color: #f19b39; color: #f19b39; float: right;">Fill Form</button>');
+    $('.checkout-button').before('<button type="button" id="fillform_tampermonkey" class="button checkout-button" style="background-color: #fff; border-color: #f19b39; color: #f19b39; float: right; margin-right: 24px;">Fill Form</button>');
 
     $('#fillform_tampermonkey').click(function() {
         $('#firstname').val('John');
