@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TRVL Checkout Autofill
 // @namespace    https://trvl.com/
-// @version      0.2.0
+// @version      0.2.1
 // @description  Populate all input fields on the checkout pages
 // @homepageURL  https://github.com/TRVL/tampermonkey
 // @author       Ricardo Cino
@@ -30,7 +30,6 @@
                 background-color: #fff;
                 border-color: #f19b39;
                 color: #f19b39;
-                margin-right: 24px;
             "
             type="button"
         >
