@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TRVL Checkout Autofill
 // @namespace    https://trvl.com/
-// @version      0.2.2
+// @version      0.2.3
 // @description  Populate all input fields on the checkout pages
 // @homepageURL  https://github.com/TRVL/tampermonkey
 // @author       Ricardo Cino
@@ -42,8 +42,8 @@
 
     document.getElementById('checkout-fill').addEventListener('click', () => {
         if (window.route().current('bookings.create')) {
-            set('firstname', 'John');
-            set('lastname', 'Batman');
+            set('firstName', 'John');
+            set('lastName', 'Batman');
             set('email', window.Laravel.user.email || '');
             set('phonenumber', '612345678');
             set('phoneNumber', '+31612345678');
@@ -52,13 +52,13 @@
             set('creditCardAddress', 'Herengracht 338');
             set('creditCardCity', 'Amsterdam');
             set('creditCardState', 'Noord-Holland');
-            set('creditCardZipcode', '1016 CG');
+            set('creditCardZipCode', '1016 CG');
             set('creditCardCountry', 'NL');
 
             update('creditCardCountry');
 
-            set('creditCardFirstname', 'John');
-            set('creditCardLastname', 'Batman');
+            set('creditCardFirstName', 'John');
+            set('creditCardLastName', 'Batman');
             set('creditCardNumber', '5275687365121871');
             set('creditCardExpirationMonth', '2');
             set('creditCardExpirationYear', '2019');
