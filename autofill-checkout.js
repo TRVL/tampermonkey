@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         TRVL Checkout AutofillNew
+// @name         TRVL Checkout Autofill
 // @namespace    https://trvl.com/
 // @version      0.2.3
 // @description  Populate all input fields on the checkout pages
