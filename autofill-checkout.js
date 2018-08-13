@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         TRVL Checkout Autofill
 // @namespace    https://trvl.com/
-// @version      0.2.4
+// @version      0.2.5
 // @description  Populate all input fields on the checkout pages
 // @homepageURL  https://github.com/TRVL/tampermonkey
 // @author       Ricardo Cino
 // @match        *.trvl.test/book*
-// @match        *.trvl-reboot.dev/book*
-// @match        *.trvl-reboot.test/book*
 // @match        *.trvl.yt/book*
 // @match        *.trvl.com/book*
 // @updateURL    https://rawgit.com/Trvl/tampermonkey/master/autofill-checkout.js
