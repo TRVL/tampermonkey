@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TRVL Checkout Autofill
 // @namespace    https://trvl.com/
-// @version      0.2.5
+// @version      0.2.6
 // @description  Populate all input fields on the checkout pages
 // @homepageURL  https://github.com/TRVL/tampermonkey
 // @author       Ricardo Cino
@@ -25,6 +25,9 @@
 
     const set = (id, value) => {
         const el = document.getElementById(id);
+
+        if (!el) return;
+
         el.value = value;
         el.dispatchEvent(inputEvent);
         el.dispatchEvent(blurEvent);
