@@ -8,6 +8,7 @@
 // @match        *.trvl.test/book*
 // @match        *.trvl.yt/book*
 // @match        *.trvl.com/book*
+// @match        *.trvl.dev/book*
 // @updateURL    https://rawgit.com/Trvl/tampermonkey/master/autofill-checkout.js
 // @downloadURL  https://rawgit.com/Trvl/tampermonkey/master/autofill-checkout.js
 // @supportURL   https://github.com/TRVL/tampermonkey/issues
